@@ -9,7 +9,7 @@ class Inicio extends Component{
   render(){
 	  return (
       <div className="fluid-container inicio">
-        <h1 className="texto-inicio">Inicio</h1>
+        <h1 className="texto-inicio">Inicio </h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
