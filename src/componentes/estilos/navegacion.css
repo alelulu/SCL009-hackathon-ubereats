@@ -1,0 +1,8 @@
+.navegador {
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  padding-top: 8px;
+}
