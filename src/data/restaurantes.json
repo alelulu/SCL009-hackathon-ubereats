@@ -1,0 +1,33 @@
+{
+    "Restaurantes":{
+        "Vegano":[
+            {   
+                "photo":,
+                "name":"Vegan Dealer",
+                "type":"Vegano",
+                "time":"35-45 min",
+                "points":"4.5"
+            }
+        ],
+        
+        "Sushi":[
+            {   
+                "photo":,
+                "name":"Sushi Lovers",
+                "type":"Sushi",
+                "time":"40-50 min",
+                "points":"4.1"
+            }
+        ],
+
+        "Comida Rápida":[
+            {   
+                "photo":,
+                "name":"Fat Boy",
+                "type":"Comida rápida",
+                "time":"30-40 min",
+                "points":"4.0"
+            }
+        ]
+    }
+}
