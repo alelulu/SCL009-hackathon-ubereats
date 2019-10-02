@@ -5,16 +5,10 @@ import niñesImg from '../imagenes/ninestexto.png'
 import cletaImg from '../imagenes/cletatexto.png'
 import logroImg from '../imagenes/logro.png'
 
-
-
-
-
 class Bienvenida extends Component{
 
   render(){
-   
 	  return (
-      
       <div className="fluid-container">
         <div className="headerB row">
         <div className="col-1"></div>
