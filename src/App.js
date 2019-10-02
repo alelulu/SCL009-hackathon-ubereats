@@ -5,6 +5,7 @@ import Navegacion from './componentes/navegacion';
 import Inicio from './paginas/inicio';
 import Bienvenida from './paginas/bienvenida';
 import Perfil from './paginas/perfil-verde';
+import Finalizar from './paginas/finalizarCompra'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/inicio' component={() => {return <Inicio/>}}/>
         <Route path='/bienvenida' component={() => {return <Bienvenida/>}}/>
         <Route path='/perfil' component={() => {return <Perfil/>}}/>
+        <Route path='/finalizar' component={() => {return <Finalizar/>}}/>
       </Switch>
       <Navegacion/>
     </div>

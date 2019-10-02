@@ -1,0 +1,15 @@
+/* .btnFinalizar{
+    background-color: #3E9920;
+     position: fixed; 
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 8px;
+  } */
+  .finalizarCompra{
+    background-color: #3E9920;
+    width: 100%;
+    height: 50px;
+    color:#ffff;
+    margin-top:120%;
+  }
