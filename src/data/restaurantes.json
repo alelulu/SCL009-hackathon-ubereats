@@ -1,33 +1,35 @@
 {
-    "Restaurantes":{
-        "Vegano":[
-            {   
-                "photo":,
+        "Restaurante":[{
+              
+                "photo":"https://raw.githubusercontent.com/MarinesLemus007/SCL009-hackathon-ubereats/develop/src/imagenes/vegandealer.jpg",
                 "name":"Vegan Dealer",
                 "type":"Vegano",
                 "time":"35-45 min",
-                "points":"4.5"
-            }
-        ],
+                "points":"4.5",
+                "comments":"(323)"
+            
+        },
         
-        "Sushi":[
+      
             {   
-                "photo":,
+                "photo":"https://github.com/MarinesLemus007/SCL009-hackathon-ubereats/blob/develop/src/imagenes/sushilovers.jpg?raw=true",
                 "name":"Sushi Lovers",
                 "type":"Sushi",
                 "time":"40-50 min",
-                "points":"4.1"
+                "points":"4.1",
+                "comments":"(250)"
             }
-        ],
+        ,
 
-        "Comida Rápida":[
+    
             {   
-                "photo":,
+                "photo":"https://github.com/MarinesLemus007/SCL009-hackathon-ubereats/blob/develop/src/imagenes/fatboy.jpg?raw=true",
                 "name":"Fat Boy",
                 "type":"Comida rápida",
                 "time":"30-40 min",
-                "points":"4.0"
-            }
-        ]
-    }
+                "points":"4.0",
+                "comments":"(522)"
+            }]
+        
+    
 }
