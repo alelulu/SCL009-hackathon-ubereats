@@ -6,8 +6,8 @@ import Inicio from './paginas/inicio';
 import Bienvenida from './paginas/bienvenida';
 import Perfil from './paginas/perfil-verde';
 import Restaurantes from './paginas/restaurantes';
-import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import Beneficios from './paginas/beneficios';
+import Finalizar from './paginas/finalizarCompra'
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         <Route path='/inicio' component={() => {return <Inicio/>}}/>
         <Route path='/bienvenida' component={() => {return <Bienvenida/>}}/>
         <Route path='/perfil' component={() => {return <Perfil/>}}/>
+        <Route path='/finalizar' component={() => {return <Finalizar/>}}/>
         <Route path='/restaurantes' component={() => {return <Restaurantes/>}}/>
         <Route path='/beneficios' component={() => {return <Beneficios/>}}/>
       </Switch>
