@@ -45,7 +45,7 @@ class Finalizar extends Component{
   <div className="modal-dialog" role="document">
     <div className="modal-content">
       <div className="modal-header">
-        <h5 className="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 className="modal-title" id="exampleModalLabel">Generemos un cambio</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -54,7 +54,7 @@ class Finalizar extends Component{
       {this.state.clicked ,this.state.selectNotes}
       </div>
       <div className="modal-footer">
-        <button type="button" className="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" className="btn" data-dismiss="modal">Cerrar</button>
        
       </div>
     </div>
