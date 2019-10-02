@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './estilos/bienvenida.css';
 import logoImg from '../imagenes/logouber.png'
-import niñesImg from '../imagenes/NIÑES.png'
-import cletaImg from '../imagenes/cleta.png'
-import logroImg from '../imagenes/price1.png'
+import niñesImg from '../imagenes/ninestexto.png'
+import cletaImg from '../imagenes/cletatexto.png'
+import logroImg from '../imagenes/logro.png'
 
 
 
@@ -47,10 +47,7 @@ class Bienvenida extends Component{
       </div>
       <div className="carousel-item">
         <img src={cletaImg} className="d-block w-100" alt="..."/>
-        <div className="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+        
       </div>
       <div className="carousel-item">
         <img src={logroImg} className="d-block w-100" alt="..."/>

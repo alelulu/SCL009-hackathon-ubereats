@@ -12,7 +12,7 @@
     background-color: #3E9920;
     color: #ffffff;
     align-content: center;
-    
+    padding-top:1px;
     margin-top: 10px;
     height: 30px;
  
@@ -24,7 +24,7 @@
 }
 .carruselB{
     margin-top: 35px;
-    background-color:rgb(57, 138, 30);
+   background-color:#ffffff;
 }
 .textCarrousel{
     color:black;
@@ -62,3 +62,9 @@ margin-top:50px;
     height: 50vh;
     width: 100%;
   }
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
