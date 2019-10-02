@@ -68,7 +68,7 @@ class Beneficios extends Component{
         </div>
         <div className="row contenedor-cuenta-atras">
           <div className="col">
-            <p>Tiempo restante</p>
+            <p>Tiempo restante:</p>
           </div>
           <div className="col">
             <p>3meses</p>
