@@ -4,6 +4,7 @@ import logoImg from '../imagenes/logouber.png'
 import niñesImg from '../imagenes/ninestexto.png'
 import cletaImg from '../imagenes/cletatexto.png'
 import logroImg from '../imagenes/logro.png'
+import { Link } from 'react-router-dom';
 
 
 
@@ -68,7 +69,9 @@ class Bienvenida extends Component{
   </div>
 </div>
         </div>
+      <Link to="/finalizar">
       <button className="btnVerde">Elige verde</button>
+      </Link>
 
       </div>
     )
