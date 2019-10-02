@@ -1,0 +1,70 @@
+
+#headerB{
+    margin-top: 6px;
+    overflow: hidden;
+	position: -webkit-sticky;
+    position: sticky;
+    height: auto;
+	
+}
+.hashtag{
+    border-radius: 10px;
+    background-color: #3E9920;
+    color: #ffffff;
+    align-content: center;
+    padding-top:1px;
+    margin-top: 10px;
+    height: 30px;
+ 
+}
+.logouber{
+    padding-top: 5%;
+    width: 50px;
+    height: auto;
+}
+.carruselB{
+    margin-top: 35px;
+   background-color:#ffffff;
+}
+.textCarrousel{
+    color:black;
+}
+
+.bienvenido{
+font-family: ABeeZee;
+font-style: italic;
+font-weight: normal;
+font-size: 44px;
+line-height: 52px;
+text-align: center;
+letter-spacing: -0.28px;
+
+color: #3E9920;
+margin-top:20px;
+
+}
+.btnVerde{
+ width: 168px;
+height: 49px;
+left: 213px;
+top: 195px;
+background-color: #3E9920;
+color:#ffffff;
+font-family: ABeeZee;
+font-style: italic;
+font-weight: normal;
+border-radius: 5px;
+margin-top:50px;
+
+}
+.carousel-inner > .item > img {
+    object-fit: scale-down;
+    height: 50vh;
+    width: 100%;
+  }
+.carousel-control-next-icon{
+    background-color: black;
+}
+.carousel-control-prev-icon{
+    background-color: black;
+}
