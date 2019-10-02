@@ -1,0 +1,61 @@
+.restaurant-img{
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.restaurant-card img{
+    width: 300px;
+    height: 173px;
+}
+
+.fa-star{
+    font-size: 12px;
+    color: darkorange;
+}
+
+.fa-circle{
+    font-size: 5px;
+}
+
+.restaurant-card{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+}
+
+.restaurant-img, .restaurant-name, .restaurant-type, .restaurant-time, .restaurant-points, .restaurant-number{
+    display: flex;
+    flex-direction: row;
+}
+
+.restaurant-info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.restaurant-time, .restaurant-points{
+    background-color: gainsboro;
+    margin-right: 10px;
+    padding: 3px;
+    
+}
+
+.restaurant-type{
+    align-items: center;
+}
+.restaurant-time{
+    margin-right: 10px;
+}
+
+.restaurant-points{
+    align-items: center;
+}
