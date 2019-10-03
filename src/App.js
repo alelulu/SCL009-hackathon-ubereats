@@ -8,6 +8,7 @@ import Perfil from './paginas/perfil-verde';
 import Restaurantes from './paginas/restaurantes';
 import Beneficios from './paginas/beneficios';
 import Finalizar from './paginas/finalizarCompra';
+import Promociones from './paginas/promociones'
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 
@@ -22,6 +23,8 @@ function App() {
         <Route path='/finalizar' component={() => {return <Finalizar/>}}/>
         <Route path='/restaurantes' component={() => {return <Restaurantes/>}}/>
         <Route path='/beneficios' component={() => {return <Beneficios/>}}/>
+        <Route path='/promociones' component={() => {return <Promociones/>}}/>
+        
       </Switch>
       <Navegacion/>
     </div>

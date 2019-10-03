@@ -1,0 +1,21 @@
+.agregar{
+    color:#3E9920;
+}
+.disponible h5{
+   margin-right: 80px;
+   margin-top:25px;
+}
+.disponible p{
+    margin-right: 120px;
+    
+}
+.verdeS{
+    background-color: rgb(217, 235, 222);
+    height: 60px;
+}
+.sube{
+    color:#3E9920;
+    padding-top:4%;
+    font-size: 13px;
+
+}

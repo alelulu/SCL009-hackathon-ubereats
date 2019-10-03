@@ -40,7 +40,9 @@ class Progreso extends Component {
         </div>
         <div className="row">
           <div className="col">
+          <Link to='/promociones'>
             <button className="btn-promociones">Promociones</button>
+            </Link>
           </div>
         </div>
       </div>
