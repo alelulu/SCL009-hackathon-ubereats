@@ -5,7 +5,6 @@ import BtnFinalizar from '../componentes/BtnFinalizar'
 class Finalizar extends Component {
 
 
-
   render() {
 
     return (
