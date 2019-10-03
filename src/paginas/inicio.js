@@ -3,16 +3,17 @@ import './estilos/inicio.css';
 import carruselImg from '../imagenes/carrusel.png';
 import ofertasImg from '../imagenes/ofertas.png';
 import menuImg from '../imagenes/menu.png';
+import Cabecera from '../componentes/cabecera';
 
 class Inicio extends Component{
 
   render(){
 	  return (
       <div className="fluid-container inicio">
-        <h1 className="texto-inicio">Inicio </h1>
+        <Cabecera/>
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <ol className="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
@@ -20,14 +21,14 @@ class Inicio extends Component{
             <div className="carousel-item active">
               <img src={carruselImg} className="d-block w-100" alt="..."/>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img src={carruselImg} className="d-block w-100" alt="..."/>
             </div>
-            <div class="carousel-item">
+            <div className="carousel-item">
               <img src={carruselImg} className="d-block w-100" alt="..."/>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span className="carousel-control-prev-icon" aria-hidden="true"></span>
             <span className="sr-only">Previous</span>
           </a>
@@ -38,8 +39,8 @@ class Inicio extends Component{
         </div>
         <h5 className="texto-inicio titulo-ofertas">Ofertas especiales</h5>
         <p className="texto-inicio p-inicio">Provisto por restaurantes locales</p>
-        <img src={ofertasImg} class="d-block w-100" alt="Ofertas"/>
-        <img src={menuImg} class="d-block w-100" alt="Menu"/>
+        <img src={ofertasImg} className="d-block w-100" alt="Ofertas"/>
+        <img src={menuImg} className="d-block w-100" alt="Menu"/>
       </div>
     )
   }

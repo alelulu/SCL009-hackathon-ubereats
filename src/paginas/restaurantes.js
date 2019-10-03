@@ -1,6 +1,7 @@
 import React from 'react';
 import data from '../data/restaurantes.json'
 import './estilos/restaurantes.css';
+import { Link } from 'react-router-dom';
 
 class Restaurantes extends React.Component{
   
@@ -12,7 +13,8 @@ class Restaurantes extends React.Component{
        
         return (
              data.Restaurante.map(element=>
-                <div className="restaurant-card">
+                <Link to="/finalizar">
+                <div className="restaurant-card" key={element.id}>
                     
                     <div className="restaurant-img">
                         <img src={element.photo} alt="imágenes de restaurantes"/>
@@ -38,8 +40,10 @@ class Restaurantes extends React.Component{
                             </div>
                         </div>
 
-                    </div>    
+                    </div> 
                 </div>
+                </Link>
+                
             )
         )
     }

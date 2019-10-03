@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './estilos/descripcion-beneficios.css';
-import { Link } from 'react-router-dom';
 
 class Descripcion extends Component{
 
@@ -8,7 +7,7 @@ class Descripcion extends Component{
 	  return (
       <div className="container">
         <div className="contenedor-titulo-nivel">
-          <div className="row">
+          <div className="row con-borde">
             <div className="col col-sm-1 ">
               <img alt="Emblema Nivel" src={this.props.iconoNivel} className="emblema-nivel"/>
             </div>
@@ -27,7 +26,7 @@ class Descripcion extends Component{
         </div>
         <div className="row">
           <div className="col">
-            <button className="btn-volver" onClick={() => this.props.volver()}>Volver atras</button>
+            <button className="btn-volver" onClick={() => this.props.volver()}>Volver atrás</button>
           </div>
         </div>
       </div>
