@@ -6,16 +6,10 @@ import cletaImg from '../imagenes/cletatexto.png'
 import logroImg from '../imagenes/logro.png'
 import { Link } from 'react-router-dom';
 
-
-
-
-
 class Bienvenida extends Component{
 
   render(){
-   
 	  return (
-      
       <div className="fluid-container">
         <div className="headerB row">
         <div className="col-1"></div>

@@ -26,12 +26,18 @@ class Beneficios extends Component{
 
   render(){
 	  return (
-      <div className="container">
-        <h1>Beneficios</h1>
-        <img alt="Icono Usuario" src={this.iconoAleatorio()} className="icono-usuario"/>
+      <div className="container beneficios">
+        <div className="row">
+          <div className="col col-sm-1 col-icono-usuario">
+            <img alt="Icono Usuario" src={this.iconoAleatorio()} className="icono-usuario"/>
+          </div>
+          <div className="col col-sm-10 align-middle">
+            <h5 className="align-middle nombre-usuario">Ariel Soto</h5>
+          </div>
+        </div>
         <div className="row emblemas">
           <div className="col col-izquierda">
-            <img alt="Emblema Semilla" src={emblemaSemilla} className="emblema"/>
+            <img alt="Emblema Semilla" src={emblemaSemilla} className="emblema emblema-semilla"/>
           </div>
           <div className="col col-centro">
             <img alt="Emblema Semilla" src={emblemaBrote} className="emblema"/>
@@ -42,7 +48,35 @@ class Beneficios extends Component{
         </div>
         <div className="row fila-progreso">
           <div className="col">
-            <progress className="barra-progreso" value="98" max="100"></progress>
+            <progress className="barra-progreso" value="50" max="100"></progress>
+          </div>
+        </div>
+        <div className="segundo-contenedor">
+          <div className="row">
+            <div className="col col-nombre-nivel">
+              <p>Nivel semilla</p>
+            </div>
+            <div className="col col-numero-nivel">
+              <p>5/10</p>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col col-gana-mas">
+              <a className="a-gana-mas">¡Gana más puntos!</a>
+            </div>
+          </div>
+        </div>
+        <div className="row contenedor-cuenta-atras">
+          <div className="col">
+            <p>Tiempo restante:</p>
+          </div>
+          <div className="col">
+            <p>3meses</p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <button className="btn-promociones">Promociones</button>
           </div>
         </div>
       </div>

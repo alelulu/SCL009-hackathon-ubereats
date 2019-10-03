@@ -6,8 +6,7 @@
 }
 
 .restaurant-card img{
-    width: 300px;
-    height: 173px;
+    width: 99%;
 }
 
 .fa-star{
@@ -23,7 +22,7 @@
     background: white;
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 90%;
     margin: auto;
     margin-top: 30px;
     border-radius: 10px;
