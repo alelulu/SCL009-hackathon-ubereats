@@ -2,7 +2,6 @@
 
 import React, { Component } from 'react';
 import './estilos/progreso.css';
-import { Link } from 'react-router-dom';
 
 class Progreso extends Component {
   render(){
@@ -24,9 +23,7 @@ class Progreso extends Component {
           </div>
           <div className="row">
             <div className="col col-gana-mas">
-              <Link to="/descripcion">
-              <p className="a-gana-mas">¡Gana más puntos!</p>
-              </Link>
+              <p className="a-gana-mas" onClick={() => this.props.cambiarMostrarNivel(0)}>¿Cómo gano puntos?</p>
             </div>
           </div>
         </div>

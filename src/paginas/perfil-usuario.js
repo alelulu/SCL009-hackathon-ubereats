@@ -2,6 +2,7 @@ import React from 'react';
 import './estilos/perfil-usuario.css';
 import user from '../imagenes/usuarios/usuario2.png';
 import hamburger from '../imagenes/iconos/hamburguesa.png';
+import { Link } from 'react-router-dom';
 
 class Usuario extends React.Component{
     render(){
@@ -52,15 +53,16 @@ class Usuario extends React.Component{
                         <p>Promociones</p>
                     </div>
                 </div>
-
-                <div className="usuario-linetwo">
-                    <div className="usuario-heart">
-                        <i class="fas fa-trophy"></i>
+                <Link to="/beneficios">
+                    <div className="usuario-linetwo">
+                        <div className="usuario-heart">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div className="usuario-fav">
+                            <p>Beneficios</p>
+                        </div>
                     </div>
-                    <div className="usuario-fav">
-                        <p>Beneficios</p>
-                    </div>
-                </div>
+                </Link>
 
                 <div className="usuario-linetwo">
                     <div className="usuario-heart">

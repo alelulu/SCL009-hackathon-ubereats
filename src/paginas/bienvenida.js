@@ -65,7 +65,7 @@ class Bienvenida extends Component{
             </div>
           </div>
         </div>
-        <Link to="/finalizar">
+        <Link to="/restaurantes">
           <button className="btnVerde">Elige verde</button>
         </Link>
 

@@ -43,7 +43,7 @@ color: #3E9920;
 margin-top:20px;
 
 }
-.btnVerde{
+/* .btnVerde{
  width: 168px;
 height: 49px;
 left: 213px;
@@ -54,7 +54,19 @@ font-family: ABeeZee;
 font-style: italic;
 font-weight: normal;
 border-radius: 5px;
-
+} */
+.btnVerde {
+  background-color: #43A422;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 20px;
+  margin-top: 1rem;
+  border-bottom: #257615 solid 4px
+}
+.btnVerde:hover {
+  border-top: #257615 solid 1px;
+  border-bottom: #257615 solid 2px
 }
 .carousel-inner > .item > img {
     object-fit: scale-down;

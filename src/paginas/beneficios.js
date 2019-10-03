@@ -46,7 +46,8 @@ class Beneficios extends Component{
       mostrarNivel: 0,
       iconoActual: usuario1
     }
-    this.mostrarProgreso = this.mostrarProgreso.bind(this)
+    this.mostrarProgreso = this.mostrarProgreso.bind(this);
+    this.cambiarMostrarNivel = this.cambiarMostrarNivel.bind(this);
   }
 
   componentDidMount() {
@@ -61,7 +62,7 @@ class Beneficios extends Component{
   alternarVistas(indiceNivel) {
     if(this.state.mostrarProgreso){
       return (
-      <Progreso puntos={this.state.puntosActuales} puntosMaximos={this.state.niveles[this.state.indiceNivelActual].puntos}/>
+      <Progreso puntos={this.state.puntosActuales} cambiarMostrarNivel={this.cambiarMostrarNivel} puntosMaximos={this.state.niveles[this.state.indiceNivelActual].puntos}/>
       )}
     else{
       return (
