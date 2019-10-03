@@ -6,4 +6,76 @@
     height: 50px;
     padding-top: 8px;
   } */
+
+  .finalizar-seccion, .finalizar-drink, .finalizar-button, .finalizar-resta,.finalizar-num, .finalizar-suma{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .finalizar-text{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    text-align: justify;
+  }
+  .finalizar-img, .finalizar-promo, .finalizar-selec, .finalizar-operation{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .finalizar-img img{
+    width: 100%;
+  }
  
+  .finalizar-selec{
+    justify-content: space-between;
+    background-color: lightgray;
+    text-align: initial;
+  }
+
+  .finalizar-drink{
+    margin-left: 10px;
+  }
+  .finalizar-button{
+    margin-right: 10px;
+    align-self: center;
+  }
+
+  .finalizar-arrow img{
+    width: 25px;
+  }
+
+  .finalizar-form{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    
+  }
+
+  .finalizar-form label{
+    margin-left: 10px;
+  }
+
+  .finalizar-radio{
+    display: flex;
+    flex-direction: row;
+    border-bottom-style: inset;
+  }
+
+  .finalizar-operation{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .finalizar-resta img, .finalizar-suma img{
+    width: 50px;
+  }
+
+  .finalizar-resta{
+    margin-right: 10px;
+  }
+
+  .finalizar-suma{
+    margin-left: 10px;
+  }

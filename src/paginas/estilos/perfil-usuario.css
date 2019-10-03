@@ -13,7 +13,7 @@
     margin-top: 10px;
 }
 
-.usuario-linetwo,.usuario-hamburger, .usuario-config{
+.usuario-linetwo,.usuario-hamburger, .usuario-config, .usuario-promo{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,13 +22,17 @@
     height: 50px;
 }
 
+.usuario-promo{
+    background-color: lightgray;
+}
+
 .usuario-name, .usuario-photo{
     display: flex;
     flex-direction: column;
     align-self: flex-end;
 }
 
-.usuario-heart, .usuario-fav{
+.usuario-heart, .usuario-fav, .usuario-trophy{
     display: flex;
     flex-direction: column;
 }
@@ -40,6 +44,11 @@
 
 .usuario-photo img{
     width: 50px;
+}
+
+.usuario-trophy img{
+    width: 40px;
+    margin-left: 4px;
 }
 
 .usuario-heart img{

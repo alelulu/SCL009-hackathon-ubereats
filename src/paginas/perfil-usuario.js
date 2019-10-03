@@ -2,6 +2,7 @@ import React from 'react';
 import './estilos/perfil-usuario.css';
 import user from '../imagenes/usuarios/usuario2.png';
 import hamburger from '../imagenes/iconos/hamburguesa.png';
+import trophy from '../imagenes/iconos/trofeo.png';
 import { Link } from 'react-router-dom';
 
 class Usuario extends React.Component{
@@ -45,25 +46,17 @@ class Usuario extends React.Component{
                     </div>
                 </div>
 
-                <div className="usuario-linetwo">
-                    <div className="usuario-heart">
-                        <i className="fas fa-tag"></i>
-                    </div>
-                    <div className="usuario-fav">
-                        <p>Promociones</p>
-                    </div>
-                </div>
-                <Link to="/beneficios">
-                    <div className="usuario-linetwo">
+                <Link to="/promociones">
+                    <div className="usuario-promo">
                         <div className="usuario-heart">
-                            <i class="fas fa-trophy"></i>
+                            <i className="fas fa-tag"></i>
                         </div>
                         <div className="usuario-fav">
-                            <p>Beneficios</p>
+                            <p>Promociones</p>
                         </div>
                     </div>
                 </Link>
-
+            
                 <div className="usuario-linetwo">
                     <div className="usuario-heart">
                         <i className="fas fa-suitcase"></i>
@@ -81,6 +74,17 @@ class Usuario extends React.Component{
                         <p>Configuración</p>
                     </div>
                 </div>
+
+                <Link to="/beneficios">
+                    <div className="usuario-hamburger">
+                        <div className="usuario-trophy">
+                            <img src={trophy} alt="img de trofeo"/>
+                        </div>
+                        <div className="usuario-fav">
+                            <p>Beneficios de elegir verde</p>
+                        </div>
+                    </div>
+                </Link>
 
                 <div className="usuario-hamburger">
                     <div className="usuario-heart">
