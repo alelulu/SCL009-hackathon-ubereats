@@ -12,7 +12,7 @@ class Restaurantes extends React.Component{
        
         return (
              data.Restaurante.map(element=>
-                <div className="restaurant-card">
+                <div className="restaurant-card" key={element.id}>
                     
                     <div className="restaurant-img">
                         <img src={element.photo} alt="imágenes de restaurantes"/>

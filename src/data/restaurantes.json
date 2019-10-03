@@ -1,6 +1,6 @@
 {
         "Restaurante":[{
-              
+                "id":1,
                 "photo":"https://raw.githubusercontent.com/MarinesLemus007/SCL009-hackathon-ubereats/develop/src/imagenes/vegandealer.jpg",
                 "name":"Vegan Dealer",
                 "type":"Vegano",
@@ -12,7 +12,8 @@
         
       
             {   
-                "photo":"https://github.com/MarinesLemus007/SCL009-hackathon-ubereats/blob/develop/src/imagenes/sushilovers.jpg?raw=true",
+                "id":2,
+                "photo":"https://raw.githubusercontent.com/MarinesLemus007/SCL009-hackathon-ubereats/develop/src/imagenes/sushilovers.jpg",
                 "name":"Sushi Lovers",
                 "type":"Sushi",
                 "time":"40-50 min",
@@ -23,7 +24,8 @@
 
     
             {   
-                "photo":"https://github.com/MarinesLemus007/SCL009-hackathon-ubereats/blob/develop/src/imagenes/fatboy.jpg?raw=true",
+                "id":3,
+                "photo":"https://raw.githubusercontent.com/MarinesLemus007/SCL009-hackathon-ubereats/develop/src/imagenes/fatboy.jpg",
                 "name":"Fat Boy",
                 "type":"Comida rápida",
                 "time":"30-40 min",
