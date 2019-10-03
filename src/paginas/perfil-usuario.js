@@ -1,6 +1,7 @@
 import React from 'react';
 import './estilos/perfil-usuario.css';
 import user from '../imagenes/usuarios/usuario2.png';
+import hamburger from '../imagenes/iconos/hamburguesa.png';
 
 class Usuario extends React.Component{
     render(){
@@ -27,7 +28,7 @@ class Usuario extends React.Component{
 
                 <div className="usuario-linetwo">
                     <div className="usuario-heart">
-                        <i class="fas fa-credit-card"></i>
+                        <i className="fas fa-credit-card"></i>
                     </div>
                     <div className="usuario-fav">
                         <p>Pago</p>
@@ -36,7 +37,7 @@ class Usuario extends React.Component{
 
                 <div className="usuario-linetwo">
                     <div className="usuario-heart">
-                        <i class="fas fa-life-ring"></i>
+                        <i className="fas fa-life-ring"></i>
                     </div>
                     <div className="usuario-fav">
                         <p>Ayuda</p>
@@ -45,7 +46,7 @@ class Usuario extends React.Component{
 
                 <div className="usuario-linetwo">
                     <div className="usuario-heart">
-                        <i class="fas fa-tag"></i>
+                        <i className="fas fa-tag"></i>
                     </div>
                     <div className="usuario-fav">
                         <p>Promociones</p>
@@ -54,19 +55,43 @@ class Usuario extends React.Component{
 
                 <div className="usuario-linetwo">
                     <div className="usuario-heart">
-                        <i class="fas fa-suitcase"></i>
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div className="usuario-fav">
+                        <p>Beneficios</p>
+                    </div>
+                </div>
+
+                <div className="usuario-linetwo">
+                    <div className="usuario-heart">
+                        <i className="fas fa-suitcase"></i>
                     </div>
                     <div className="usuario-fav">
                         <p>Haz entregas con la app de Uber</p>
                     </div>
                 </div>
 
-                <div className="usuario-linetwo">
+                <div className="usuario-config">
                     <div className="usuario-heart">
-                        <i class="fas fa-suitcase"></i>
+                        <i className="fas fa-cog"></i>
                     </div>
                     <div className="usuario-fav">
-                        <p>Haz entregas con la app de Uber</p>
+                        <p>Configuración</p>
+                    </div>
+                </div>
+
+                <div className="usuario-hamburger">
+                    <div className="usuario-heart">
+                        <img src={hamburger} alt="icono de descuentos"/>
+                    </div>
+                    <div className="usuario-fav">
+                        <p>Obtén CLP5,000 de descuentos en tu pedido</p>
+                    </div>
+                </div>
+
+                <div className="usuario-linetwo">
+                    <div className="usuario-fav">
+                        <p>Quiénes somos</p>
                     </div>
                 </div>
 

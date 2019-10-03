@@ -9,6 +9,7 @@ import Restaurantes from './paginas/restaurantes';
 import Beneficios from './paginas/beneficios';
 import Usuario from './paginas/perfil-usuario';
 import Finalizar from './paginas/finalizarCompra'
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   return (
