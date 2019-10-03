@@ -9,7 +9,9 @@ import Restaurantes from './paginas/restaurantes';
 import Beneficios from './paginas/beneficios';
 import Usuario from './paginas/perfil-usuario';
 import Finalizar from './paginas/finalizarCompra';
-import Endvegano from './paginas/final-vegano'
+import Endvegano from './paginas/final-vegano';
+import Endsushi from './paginas/final-sushi';
+import Endhamburger from './paginas/final-hamburger';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
         <Route path='/restaurantes' component={() => {return <Restaurantes/>}}/>
         <Route path='/beneficios' component={() => {return <Beneficios/>}}/>
         <Route path='/finalizar-vegano' component={() => {return <Endvegano/>}}/>
+        <Route path='/finalizar-sushi' component={() => {return <Endsushi/>}}/>
+        <Route path='/finalizar-hamburger' component={() => {return <Endhamburger/>}}/>
       </Switch>
       <Navegacion/>
     </div>
