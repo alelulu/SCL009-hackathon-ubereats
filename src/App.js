@@ -10,7 +10,7 @@ import Beneficios from './paginas/beneficios';
 import Usuario from './paginas/perfil-usuario';
 import Finalizar from './paginas/finalizarCompra'
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
-
+import Promociones from './paginas/promociones'
 function App() {
   return (
     <div className="App">
@@ -23,6 +23,8 @@ function App() {
         <Route path='/finalizar' component={() => {return <Finalizar/>}}/>
         <Route path='/restaurantes' component={() => {return <Restaurantes/>}}/>
         <Route path='/beneficios' component={() => {return <Beneficios/>}}/>
+        <Route path='/promociones' component={() => {return <Promociones/>}}/>
+        
       </Switch>
       <Navegacion/>
     </div>

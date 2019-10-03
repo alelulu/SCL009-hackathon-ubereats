@@ -6,15 +6,14 @@
   text-align: left;
   padding: 0;
 }
-.col-icono-usuario {
-}
+
 .icono-usuario {
   width: 60%;
 }
 .nombre-usuario {
   margin: 0%;
   position: absolute;
-  top: 48%  
+  top: 48%;  
 }
 .emblemas {
   margin: 1rem 0;
@@ -26,14 +25,14 @@
 }
 .emblema-semilla {
   border: #A9EE39 2px solid;
-  border-radius: 50%
+  border-radius: 50%;
 }
 .col-izquierda {
-  text-align: right
+  text-align: right;
 }
 .col-centro {
-  padding: 0 10px
+  padding: 0 10px;
 }
 .col-derecha {
-  text-align: left
+  text-align: left;
 }

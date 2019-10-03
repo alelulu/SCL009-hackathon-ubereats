@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import './estilos/progreso.css';
+import { Link } from 'react-router-dom';
 
 class Progreso extends Component {
   render(){
@@ -37,7 +38,9 @@ class Progreso extends Component {
         </div>
         <div className="row">
           <div className="col">
+          <Link to='/promociones'>
             <button className="btn-promociones">Promociones</button>
+            </Link>
           </div>
         </div>
       </div>

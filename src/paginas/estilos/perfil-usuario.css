@@ -49,9 +49,9 @@
 .usuario-hamburger{
     border-bottom-style: groove;
     border-bottom-color: greenyellow;
-    background-color: palegreen;
+    background-color:#e8f6e5;
+    color:#3E9920;
 }
-
 .usuario-config{
     border-bottom-style: groove;
     border-bottom-color: greenyellow;
