@@ -8,6 +8,7 @@ import Perfil from './paginas/perfil-verde';
 import Restaurantes from './paginas/restaurantes';
 import Beneficios from './paginas/beneficios';
 import Finalizar from './paginas/finalizarCompra'
+import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
   return (

@@ -6,22 +6,4 @@
     height: 50px;
     padding-top: 8px;
   } */
-  .finalizarCompra{
-    background-color: #3E9920;
-    width: 100%;
-    height: 50px;
-    color:#ffff;
-    margin-top:120%;
-  }
-  .modal-title{
-      color:#ffff;
-  }
-  .modal-header{
-      background-image:url("https://image.freepik.com/vector-gratis/fondo-tropical-natural-hojas_52683-21005.jpg");
-      background-size: 100%;
-      height: auto;
-  }
-  .btn{
-      background-color:#3E9920;
-      color:#ffff;
-  }
+ 
