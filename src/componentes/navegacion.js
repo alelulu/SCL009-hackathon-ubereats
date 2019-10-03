@@ -29,6 +29,7 @@ class Navegacion extends Component {
               <i class="fas fa-user icono-usable"></i>
             </Link>
           </div>
+
         </div>
       </div>
     )

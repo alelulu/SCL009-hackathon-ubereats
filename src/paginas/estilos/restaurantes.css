@@ -29,9 +29,18 @@
     box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
 }
 
-.restaurant-img, .restaurant-name, .restaurant-type, .restaurant-time, .restaurant-points, .restaurant-number{
+.restaurant-img, .restaurant-name, .restaurant-type, .restaurant-time, .restaurant-points, .restaurant-number, .restaurant-eco{
     display: flex;
     flex-direction: row;
+}
+
+.restaurant-eco{
+    align-items: baseline;
+}
+
+.restaurant-ico, .restautant-word{
+    display: flex;
+    flex-direction: column;
 }
 
 .restaurant-info{
@@ -60,4 +69,9 @@
 }
 a {
     color: #212529
+}
+
+.fa-leaf{
+    color: green;
+    font-size: 12px;
 }

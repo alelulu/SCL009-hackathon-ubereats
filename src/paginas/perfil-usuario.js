@@ -86,14 +86,16 @@ class Usuario extends React.Component{
                     </div>
                 </Link>
 
-                <div className="usuario-hamburger">
-                    <div className="usuario-heart">
-                        <img src={hamburger} alt="icono de descuentos"/>
+                <Link to="/promociones">
+                    <div className="usuario-hamburger">
+                        <div className="usuario-heart">
+                            <img src={hamburger} alt="icono de descuentos"/>
+                        </div>
+                        <div className="usuario-fav">
+                            <p>Obtén CLP5,000 de descuentos en tu pedido</p>
+                        </div>
                     </div>
-                    <div className="usuario-fav">
-                        <p>Obtén CLP5,000 de descuentos en tu pedido</p>
-                    </div>
-                </div>
+                </Link>
 
                 <div className="usuario-linetwo">
                     <div className="usuario-fav">
