@@ -1,0 +1,41 @@
+.contenedor-titulo-nivel {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+.emblema-nivel {
+  width: 80%
+}
+.col-nombre-nivel {
+  position: relative;
+  text-align: left;
+  padding-left: 0%
+}
+.nombre-nivel {
+  margin: 0%;
+  position: absolute;
+  top: 40%  
+}
+.puntos-nivel {
+  margin: 0%;
+  position: absolute;
+  top: 60%  
+}
+.contenedor-descripcion-nivel {
+  border-top: 1px solid #C4C4C4;
+  padding-top: 1rem;
+  text-align: left
+}
+.btn-volver {
+  background-color: #43A422;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 20px;
+  margin-top: 1rem;
+  border-bottom: #257615 solid 4px
+}
+.btn-volver:hover {
+  border-top: #257615 solid 1px;
+  border-bottom: #257615 solid 2px
+}

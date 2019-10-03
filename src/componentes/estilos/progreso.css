@@ -1,0 +1,65 @@
+
+.fila-progreso {
+  margin-top: 2rem
+}
+.segundo-contenedor {
+  padding-bottom: 1rem
+}
+.contenedor-cuenta-atras {
+  border-top: 1px solid #cacaca;
+  padding-top: 1rem
+}
+.barra-progreso {
+  border-radius: 105px;
+  border: 2px solid #43A422;
+  width: 80%;
+  height: 22px;
+}
+.barra-progreso::-webkit-progress-bar {
+  background-color: #ffffff;
+  border-radius: 105px;
+  
+}
+.barra-progreso::-webkit-progress-value {
+  border-radius: 105px;
+  /*   border-top-left-radius: 105px;
+  border-bottom-left-radius: 105px; */
+  background-color: #a4d095;
+}
+.barra-progreso::-moz-progress-bar {
+  background-color: #ffffff;
+  border-radius: 105px;
+}
+.nombre-puntos {
+  text-align: center
+}
+.col-nombre-nivel {
+text-align: center
+}
+.p-nombre-nivel {
+  padding-left: 2rem
+}
+.p-numero-nivel {
+  text-align: right;
+  padding-right: 1rem
+}
+.col-gana-mas {
+  text-align: right;
+}
+.a-gana-mas {
+  color: #43A422 !important;
+  margin-right: 2rem
+}
+.btn-promociones {
+  background-color: #43A422;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 20px;
+  margin-top: 1rem;
+  border-bottom: #257615 solid 4px
+}
+.btn-promociones:hover {
+  border-top: #257615 solid 1px;
+  border-bottom: #257615 solid 2px
+}
