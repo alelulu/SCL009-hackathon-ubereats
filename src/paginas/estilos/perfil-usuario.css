@@ -28,7 +28,7 @@
     align-self: flex-end;
 }
 
-.usuario-heart, .usuario-fav{
+.usuario-heart, .usuario-fav, .usuario-trophy{
     display: flex;
     flex-direction: column;
 }
@@ -40,6 +40,11 @@
 
 .usuario-photo img{
     width: 50px;
+}
+
+.usuario-trophy img{
+    width: 40px;
+    margin-left: 4px;
 }
 
 .usuario-heart img{
