@@ -32,7 +32,7 @@ class Progreso extends Component {
           <div className="col">
             <p>Tiempo restante:</p>
           </div>
-          <div className="col">
+          <div className="col col-meses">
             <p>3meses</p>
           </div>
         </div>

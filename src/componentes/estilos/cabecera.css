@@ -1,10 +1,6 @@
 .btn-elige-verde {
-  background-color: #43A422;
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  padding: 6px 20px;
-  border-bottom: #257615 solid 4px;
+  color: #43A422;
+  padding: 8px 20px;
   font-style: italic;
 }
 .btn-elige-verde:hover {

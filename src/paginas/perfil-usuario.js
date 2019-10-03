@@ -9,13 +9,12 @@ class Usuario extends React.Component{
     render(){
         return (
             <section className="usuario-seccion">
-                
                 <div className="usuario-perfil">
                     <div className="usuario-name">
                         <p>Usuario</p>
                     </div>
                     <div className="usuario-photo">
-                        <img src={user} alt="img de usuario"/>
+                        <img className="icono-usuario-perfil" src={user} alt="img de usuario"/>
                     </div>
                 </div>
 

@@ -3,7 +3,9 @@
     flex-direction: column;
     text-align: initial;
 }
-
+.icono-usuario-perfil {
+    padding-bottom: 7px
+}
 .usuario-perfil{
     display: flex;
     flex-direction: row;
