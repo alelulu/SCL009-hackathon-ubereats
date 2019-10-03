@@ -3,13 +3,14 @@ import './estilos/inicio.css';
 import carruselImg from '../imagenes/carrusel.png';
 import ofertasImg from '../imagenes/ofertas.png';
 import menuImg from '../imagenes/menu.png';
+import Cabecera from '../componentes/cabecera';
 
 class Inicio extends Component{
 
   render(){
 	  return (
       <div className="fluid-container inicio">
-        <h1 className="texto-inicio">Inicio </h1>
+        <Cabecera/>
         <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

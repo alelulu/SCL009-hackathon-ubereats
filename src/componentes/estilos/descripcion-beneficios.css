@@ -1,7 +1,10 @@
 .contenedor-titulo-nivel {
+  
+}
+.con-borde {
   margin-top: 1rem;
   padding-bottom: 1rem;
-
+  border-bottom: 1px solid #C4C4C4;
 }
 .emblema-nivel {
   width: 80%
@@ -22,7 +25,6 @@
   top: 60%  
 }
 .contenedor-descripcion-nivel {
-  border-top: 1px solid #C4C4C4;
   padding-top: 1rem;
   text-align: left
 }

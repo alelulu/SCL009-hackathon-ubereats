@@ -4,7 +4,7 @@
 .col-nombre {
   position: relative;
   text-align: left;
-  padding-left: 0%
+  padding: 0;
 }
 .col-icono-usuario {
 }
@@ -12,17 +12,14 @@
   width: 60%;
 }
 .nombre-usuario {
-/*   padding-top: 40px;
-  padding-left: -20px;
-  text-align: left */
   margin: 0%;
   position: absolute;
   top: 48%  
 }
 .emblemas {
-  margin-top: 1rem;
+  margin: 1rem 0;
   padding-bottom: 1rem;
-  border-bottom: #C4C4C4 1px solid
+  border-bottom: #C4C4C4 1px solid;
 }
 .emblema {
   width: 65%;

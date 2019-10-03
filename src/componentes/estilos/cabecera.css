@@ -1,0 +1,30 @@
+.btn-elige-verde {
+  background-color: #43A422;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 20px;
+  border-bottom: #257615 solid 4px;
+  font-style: italic;
+}
+.btn-elige-verde:hover {
+  border-top: #257615 solid 1px;
+  border-bottom: #257615 solid 2px
+}
+.logo-elige-verde {
+  width: 45px;
+  height: auto;
+}
+.col-btn {
+  text-align: left
+}
+.col-logo {
+  text-align: right
+}
+.cabecera-container {
+  height: 50px;
+  top: 0;
+  padding-bottom: 55px;
+  border-bottom: #C4C4C4 1px solid;
+  margin-bottom: 1rem
+}

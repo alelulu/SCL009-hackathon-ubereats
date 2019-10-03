@@ -5,13 +5,14 @@ import niñesImg from '../imagenes/ninestexto.png'
 import cletaImg from '../imagenes/cletatexto.png'
 import logroImg from '../imagenes/logro.png'
 import { Link } from 'react-router-dom';
+import Cabecera from '../componentes/cabecera';
 
 class Bienvenida extends Component{
 
   render(){
 	  return (
-      <div className="fluid-container">
-        <div className="headerB row">
+      <div className="container bienvenida">
+{/*         <div className="headerB row">
         <div className="col-1"></div>
         <div className="hashtag col-4">
          
@@ -22,7 +23,8 @@ class Bienvenida extends Component{
             <div className="logo col-3">
              <img className="logouber"src={logoImg}></img> 
             </div>
-        </div>
+        </div> */}
+        <Cabecera/>
         <h1 className="bienvenido">Bienvenido</h1>
         <div className="carruselB">
         <div className="bd-example">
