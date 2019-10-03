@@ -1,12 +1,6 @@
 import React, { Component } from 'react';
 import './estilos/navegacion.css';
 import { Link } from 'react-router-dom';
-import inicioIcon from '../imagenes/inicio.png';
-import busquedaIcon from '../imagenes/busqueda.png';
-import historialIcon from  '../imagenes/historial.png';
-import bienvenidaIcon from '../imagenes/bienvenida.png';
-import perfilIcon from '../imagenes/perfil.png'
-
 
 
 class Navegacion extends Component {
@@ -14,25 +8,25 @@ class Navegacion extends Component {
 	  return (
       <div className="container navegador">
         <div className="row">
-          <div className="col">
+          <div className="col col-icono">
             <Link to="/inicio">
-              <img alt="Inicio" src={inicioIcon} className=""/>
+              <i class="fas fa-home icono-usable"></i>
             </Link>
           </div>
-          <div className="col">
-            <img alt="Busqueda" src={busquedaIcon} className=""/>
+          <div className="col col-icono">
+            <i class="fas fa-search icono-no-usable"></i>
           </div>
-          <div className="col">
-            <img alt="Historial" src={historialIcon} className=""/>
+          <div className="col col-icono">
+            <i class="fas fa-book icono-no-usable"></i>
           </div>
-          <div className="col">
+          <div className="col col-icono">
             <Link to="/bienvenida">
-              <img alt="Bienvenida" src={bienvenidaIcon} className=""/>
+              <i class="fas fa-leaf icono-usable hoja"></i>
             </Link>
           </div>
-          <div className="col">
+          <div className="col col-icono">
             <Link to="/perfil">
-              <img alt="Perfil" src={perfilIcon} className=""/>
+              <i class="fas fa-user icono-usable"></i>
             </Link>
           </div>
         </div>

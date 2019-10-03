@@ -1,8 +1,19 @@
 .navegador {
+  text-align: center;
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%;
   height: 50px;
-  padding-top: 8px;
+  padding-top: 15px;
+}
+.col-icono {
+  text-align: center;
+  margin-left: 11px
+}
+.icono-no-usable {
+  color: #b3aeae;
+}
+.hoja {
+  color: #43A422
 }

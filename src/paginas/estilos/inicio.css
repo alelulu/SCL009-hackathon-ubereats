@@ -1,6 +1,8 @@
 .inicio {
-  text-align: left;
-  padding-top: 1rem
+  padding-top: 1rem;
+}
+.img-inicio {
+  width: 100%
 }
 /* .carousel {
   border-bottom: solid #F6F6F6 7px
@@ -14,4 +16,21 @@
 .p-inicio {
   color: #545454;
   margin-top: -10px
+}
+.mensaje {
+  padding: 3px 20px;
+  border-radius: 6px;
+  position: fixed;
+  left: 40%;
+  bottom: 60px;
+  background-color: white;
+  z-index: 1;
+}
+.texto-mensaje {
+  padding-top: 10px;
+  margin: 0
+}
+.imagen-logo {
+  width: 30px;
+  padding-bottom: 8px
 }

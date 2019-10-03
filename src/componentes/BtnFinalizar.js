@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
-import './estilos/BtnFinalizar.css'
+import './estilos/BtnFinalizar.css';
+import { Link } from 'react-router-dom';
 
 class BtnFinalizar extends Component{
     constructor(props) {
