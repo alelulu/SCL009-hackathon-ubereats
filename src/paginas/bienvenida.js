@@ -12,18 +12,6 @@ class Bienvenida extends Component{
   render(){
 	  return (
       <div className="container bienvenida">
-{/*         <div className="headerB row">
-        <div className="col-1"></div>
-        <div className="hashtag col-4">
-         
-            <p>#EligeVerde</p>
-            </div>
-            <div className="col-4">
-            </div>
-            <div className="logo col-3">
-             <img className="logouber"src={logoImg}></img> 
-            </div>
-        </div> */}
         <Cabecera/>
         <h1 className="bienvenido">Bienvenido</h1>
         <div className="carruselB">
@@ -65,10 +53,18 @@ class Bienvenida extends Component{
             </div>
           </div>
         </div>
-        <Link to="/restaurantes">
-          <button className="btnVerde">Elige verde</button>
-        </Link>
-
+        <div className="row row-botones">
+          <Link to="/restaurantes">
+            <div className="col">
+              <button className="btnVerde">Restaurantes</button>
+            </div>
+          </Link>
+          <Link to="/beneficios">
+            <div className="col">
+              <button className="btnVerde">Beneficios</button>
+            </div>
+          </Link>
+        </div>
       </div>
     )
   }

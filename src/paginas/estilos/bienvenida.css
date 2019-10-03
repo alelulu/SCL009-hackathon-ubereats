@@ -55,8 +55,12 @@ font-style: italic;
 font-weight: normal;
 border-radius: 5px;
 } */
+.row-botones {
+  padding-left: 3.5%
+}
 .btnVerde {
   background-color: #43A422;
+  width: 140px;
   color: #ffffff;
   border: none;
   border-radius: 8px;
