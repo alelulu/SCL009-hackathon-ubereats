@@ -13,13 +13,17 @@
     margin-top: 10px;
 }
 
-.usuario-linetwo,.usuario-hamburger, .usuario-config{
+.usuario-linetwo,.usuario-hamburger, .usuario-config, .usuario-promo{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
     height: 50px;
+}
+
+.usuario-promo{
+    background-color: lightgray;
 }
 
 .usuario-name, .usuario-photo{
@@ -54,9 +58,9 @@
 .usuario-hamburger{
     border-bottom-style: groove;
     border-bottom-color: greenyellow;
-    background-color: palegreen;
+    background-color:#e8f6e5;
+    color:#3E9920;
 }
-
 .usuario-config{
     border-bottom-style: groove;
     border-bottom-color: greenyellow;

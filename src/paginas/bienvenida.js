@@ -5,24 +5,26 @@ import niñesImg from '../imagenes/ninestexto.png'
 import cletaImg from '../imagenes/cletatexto.png'
 import logroImg from '../imagenes/logro.png'
 import { Link } from 'react-router-dom';
+import Cabecera from '../componentes/cabecera';
 
 class Bienvenida extends Component{
 
   render(){
 	  return (
-      <div className="fluid-container">
-        <div className="headerB row">
-          <div className="col-1"></div>
-          <div className="hashtag col-4">
-
+      <div className="container bienvenida">
+{/*         <div className="headerB row">
+        <div className="col-1"></div>
+        <div className="hashtag col-4">
+         
             <p>#EligeVerde</p>
-          </div>
-          <div className="col-4">
-          </div>
-          <div className="logo col-3">
-            <img className="logouber" src={logoImg} alt="..." />
-          </div>
-        </div>
+            </div>
+            <div className="col-4">
+            </div>
+            <div className="logo col-3">
+             <img className="logouber"src={logoImg}></img> 
+            </div>
+        </div> */}
+        <Cabecera/>
         <h1 className="bienvenido">Bienvenido</h1>
         <div className="carruselB">
           <div className="bd-example">
@@ -63,7 +65,7 @@ class Bienvenida extends Component{
             </div>
           </div>
         </div>
-        <Link to="/finalizar">
+        <Link to="/restaurantes">
           <button className="btnVerde">Elige verde</button>
         </Link>
 

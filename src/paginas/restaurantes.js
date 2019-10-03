@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../data/restaurantes.json';
 import { Redirect } from 'react-router-dom';
 import './estilos/restaurantes.css';
+// import { Link } from 'react-router-dom';
 
 class Restaurantes extends React.Component{
   

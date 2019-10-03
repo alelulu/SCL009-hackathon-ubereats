@@ -1,0 +1,77 @@
+.agregar{
+    color:#3E9920;
+}
+.disponible h5{
+   margin-right: 80px;
+   margin-top:25px;
+}
+.disponible p{
+    margin-right: 120px;
+    margin-top: 3%;
+    
+    
+}
+.verdeS{
+    border-bottom-style: groove;
+    border-bottom-color: greenyellow;
+    background-color: #e8f6e5;
+    margin-top:3%;
+}
+.sube{
+    color:#3E9920;
+    padding-top:4%;
+    font-size: 13px;
+
+}
+.broteIm{
+    width: 35px;
+    margin-right: 20px
+   
+}
+.cuadroPromociones{
+    border-style: groove;
+    border-color:#e8f6e5;
+    height: 110px;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-radius: 5px;
+
+}
+.cuadroPromociones2{
+    border-style: groove;
+    border-color:#e8f6e5;
+    height: 110px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+.titlePromocion{
+    
+    margin-top: 3%;
+    
+
+}
+.pr1{
+    text-align: justify;
+    margin-left: 1%;
+    margin-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+   
+}
+.pr3{
+    color: rgb(27, 27, 27);
+    font-size: 10px;
+    margin-bottom: 1px;
+    margin-left: 1%;
+    text-align: justify;
+}
+.pr2{
+    color: rgb(27, 27, 27);
+    font-size: 10px;
+    margin-left: 1%;
+    text-align: justify;
+    
+}

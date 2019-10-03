@@ -13,7 +13,7 @@ import Endvegano from './paginas/final-vegano';
 import Endsushi from './paginas/final-sushi';
 import Endhamburger from './paginas/final-hamburger';
 import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
-
+import Promociones from './paginas/promociones'
 function App() {
   return (
     <div className="App">
@@ -29,6 +29,8 @@ function App() {
         <Route path='/finalizar-vegano' component={() => {return <Endvegano/>}}/>
         <Route path='/finalizar-sushi' component={() => {return <Endsushi/>}}/>
         <Route path='/finalizar-hamburger' component={() => {return <Endhamburger/>}}/>
+        <Route path='/promociones' component={() => {return <Promociones/>}}/>
+        
       </Switch>
       <Navegacion/>
     </div>

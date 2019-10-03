@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Progreso from '../componentes/progreso';
 import Descripcion from '../componentes/descripcion-beneficios';
+import Cabecera from '../componentes/cabecera';
 import './estilos/beneficios.css';
 import usuario1 from '../imagenes/usuarios/usuario1.png';
 import usuario2 from '../imagenes/usuarios/usuario2.png';
@@ -12,6 +13,7 @@ import usuario7 from '../imagenes/usuarios/usuario7.png';
 import emblemaSemilla from '../imagenes/emblemas/semilla.png';
 import emblemaBrote from '../imagenes/emblemas/brote.png';
 import emblemaPlanta from '../imagenes/emblemas/planta.png';
+
 
 class Beneficios extends Component{
   constructor(props) {
@@ -44,7 +46,8 @@ class Beneficios extends Component{
       mostrarNivel: 0,
       iconoActual: usuario1
     }
-    this.mostrarProgreso = this.mostrarProgreso.bind(this)
+    this.mostrarProgreso = this.mostrarProgreso.bind(this);
+    this.cambiarMostrarNivel = this.cambiarMostrarNivel.bind(this);
   }
 
   componentDidMount() {
@@ -59,7 +62,7 @@ class Beneficios extends Component{
   alternarVistas(indiceNivel) {
     if(this.state.mostrarProgreso){
       return (
-      <Progreso puntos={this.state.puntosActuales} puntosMaximos={this.state.niveles[this.state.indiceNivelActual].puntos}/>
+      <Progreso puntos={this.state.puntosActuales} cambiarMostrarNivel={this.cambiarMostrarNivel} puntosMaximos={this.state.niveles[this.state.indiceNivelActual].puntos}/>
       )}
     else{
       return (
@@ -89,12 +92,14 @@ class Beneficios extends Component{
 
   render(){
 	  return (
+      
       <div className="container beneficios">
+        <Cabecera/>
         <div className="row">
-          <div className="col col-sm-1 col-icono-usuario">
+          <div className="col col-icono-usuario">
             <img alt="Icono Usuario" src={this.state.iconoActual} className="icono-usuario"/>
           </div>
-          <div className="col col-sm-10 col-nombre">
+          <div className="col col-nombre">
             <h5 className="nombre-usuario">Ariel Soto</h5>
           </div>
         </div>
