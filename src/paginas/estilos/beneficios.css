@@ -1,15 +1,23 @@
 .beneficios {
   padding-top: 1rem
 }
+.col-nombre {
+  position: relative;
+  text-align: left;
+  padding-left: 0%
+}
 .col-icono-usuario {
 }
 .icono-usuario {
-  width: 70%;
+  width: 60%;
 }
 .nombre-usuario {
-  padding-top: 40px;
+/*   padding-top: 40px;
   padding-left: -20px;
-  text-align: left
+  text-align: left */
+  margin: 0%;
+  position: absolute;
+  top: 48%  
 }
 .emblemas {
   margin-top: 1rem;
@@ -31,53 +39,4 @@
 }
 .col-derecha {
   text-align: left
-}
-.fila-progreso {
-  margin-top: 2rem
-}
-.segundo-contenedor {
-  padding-bottom: 1rem
-}
-.contenedor-cuenta-atras {
-  border-top: 1px solid #cacaca;
-  padding-top: 1rem
-}
-.barra-progreso {
-  border-radius: 105px;
-  border: 2px solid #43A422;
-  width: 80%;
-  height: 22px;
-}
-.barra-progreso::-webkit-progress-bar {
-  background-color: #ffffff;
-  border-radius: 105px;
-  
-}
-.barra-progreso::-webkit-progress-value {
-  border-radius: 105px;
-  /*   border-top-left-radius: 105px;
-  border-bottom-left-radius: 105px; */
-  background-color: #a4d095;
-}
-.barra-progreso::-moz-progress-bar {
-  background-color: #ffffff;
-  border-radius: 105px;
-}
-.col-nombre-nivel {
-padding-left: 3rem
-}
-.col-gana-mas {
-  text-align: right;
-}
-.a-gana-mas {
-  color: #43A422 !important;
-  margin-right: 2rem
-}
-.btn-promociones {
-  background-color: #43A422;
-  color: #ffffff;
-  border: none;
-  border-radius: 3px;
-  padding: 8px;
-  margin-top: 1rem;
 }
