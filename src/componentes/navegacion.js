@@ -6,6 +6,7 @@ import busquedaIcon from '../imagenes/busqueda.png';
 import historialIcon from  '../imagenes/historial.png';
 import bienvenidaIcon from '../imagenes/bienvenida.png';
 import perfilIcon from '../imagenes/perfil.png'
+import { spawn } from 'child_process';
 
 
 
@@ -30,11 +31,13 @@ class Navegacion extends Component {
               <img alt="Bienvenida" src={bienvenidaIcon} className=""/>
             </Link>
           </div>
+
           <div className="col">
             <Link to="/perfil">
               <img alt="Perfil" src={perfilIcon} className=""/>
             </Link>
           </div>
+
         </div>
       </div>
     )

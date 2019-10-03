@@ -60,6 +60,15 @@ class Restaurantes extends React.Component{
 
                             <div className="restaurant-points">
                                 {element.points}<i className="fas fa-star"></i>{element.comments}
+                            </div> 
+                        </div>
+
+                        <div className="restaurant-eco">
+                            <div className="restaurant-ico">
+                                <i className="fas fa-leaf"></i>
+                            </div>
+                            <div className="restautant-word">
+                                <p>Restaurante sustentable</p>
                             </div>
                         </div>
 
