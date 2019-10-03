@@ -30,8 +30,18 @@
   background-color: #ffffff;
   border-radius: 105px;
 }
+.nombre-puntos {
+  text-align: center
+}
 .col-nombre-nivel {
-padding-left: 3rem
+text-align: center
+}
+.p-nombre-nivel {
+  padding-left: 2rem
+}
+.p-numero-nivel {
+  text-align: right;
+  padding-right: 1rem
 }
 .col-gana-mas {
   text-align: right;

@@ -14,12 +14,12 @@ class Progreso extends Component {
           </div>
         </div>
         <div className="segundo-contenedor">
-          <div className="row">
+          <div className="row nombre-puntos">
             <div className="col col-nombre-nivel">
-              <p>Nivel semilla</p>
+              <p className="p-nombre-nivel">Nivel semilla</p>
             </div>
             <div className="col col-numero-nivel">
-              <p>{this.props.puntos}/{this.props.puntosMaximos}</p>
+              <p className="p-numero-nivel">{this.props.puntos}/{this.props.puntosMaximos}</p>
             </div>
           </div>
           <div className="row">
