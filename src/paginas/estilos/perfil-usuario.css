@@ -22,8 +22,9 @@
     height: 50px;
 }
 
-.usuario-promo{
-    background-color: lightgray;
+.usuario-linetwo, .usuario-config{
+    background-color: #ece9e9;
+    color: #b3aeae;
 }
 
 .usuario-name, .usuario-photo{
@@ -64,4 +65,8 @@
 .usuario-config{
     border-bottom-style: groove;
     border-bottom-color: greenyellow;
+}
+
+.fa-heart, .fa-credit-card, .fa-life-ring, .fa-suitcase, .fa-cog{
+    color: #b3aeae;
 }
