@@ -2,9 +2,7 @@
 #headerB{
     margin-top: 6px;
     overflow: hidden;
-	position: -webkit-sticky;
-    position: sticky;
-    height: auto;
+	height: auto;
 	
 }
 .hashtag{
