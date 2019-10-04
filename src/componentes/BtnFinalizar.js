@@ -31,7 +31,7 @@ class BtnFinalizar extends Component{
         
         return(
             <div className="btnFinalizar">
-            <button className="finalizarCompra" data-toggle="modal" data-target="#exampleModal" onClick={this.texto}>Confirmar pedido:Con entrega</button>
+            <button className="finalizarCompra" data-toggle="modal" data-target="#exampleModal" onClick={this.texto}>Confirmar pedido: Con entrega</button>
            
             <div className="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div className="modal-dialog" role="document">
@@ -39,7 +39,7 @@ class BtnFinalizar extends Component{
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalLabel">Generemos un cambio</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span className="cerrar" aria-hidden="true">&times;</span>
         </button>
       </div>
       <div className="modal-body">

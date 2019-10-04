@@ -1,9 +1,13 @@
+.titulo {
+    margin: 0
+}
 .agregar{
     color:#3E9920;
+    margin: 0
 }
 .disponible h5{
    margin-right: 80px;
-   margin-top:25px;
+   margin-top: 1rem;
 }
 .disponible p{
     margin-right: 120px;
@@ -15,7 +19,10 @@
     border-bottom-style: groove;
     border-bottom-color: greenyellow;
     background-color: #e8f6e5;
-    margin-top:3%;
+    margin-top:1rem;
+}
+.vence {
+    padding-top: 23px
 }
 .sube{
     color:#3E9920;
@@ -53,7 +60,7 @@
 
 .titlePromocion{
     
-    margin-top: 3%;
+    margin-top: 1rem;
     
 
 }
@@ -77,4 +84,5 @@
     font-size: 10px;
     margin-left: 1%;
     text-align: justify;
+    margin-bottom: 0;
 }

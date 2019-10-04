@@ -55,8 +55,11 @@ font-style: italic;
 font-weight: normal;
 border-radius: 5px;
 } */
-.row-botones {
-  padding-left: 3.5%
+.col-btn-restaurantes {
+  text-align: right
+}
+.col-btn-beneficios {
+  text-align: left
 }
 .btnVerde {
   background-color: #43A422;

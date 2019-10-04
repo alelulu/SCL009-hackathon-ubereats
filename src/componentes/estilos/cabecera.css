@@ -3,10 +3,7 @@
   padding: 8px 20px;
   font-style: italic;
 }
-.btn-elige-verde:hover {
-  border-top: #257615 solid 1px;
-  border-bottom: #257615 solid 2px
-}
+
 .logo-elige-verde {
   width: 45px;
   height: auto;

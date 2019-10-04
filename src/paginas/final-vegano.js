@@ -14,7 +14,7 @@ class Endvegano extends Component {
         <section className="finalizar-seccion">
             
             <div className="finalizar-img">
-                <img src={promo} alt="ensalada cesar"/>
+                <img src={promo} alt="ensalada cesar" className="imagen-ensalada"/>
             </div>
 
             <div className="finalizar-text">

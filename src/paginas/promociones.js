@@ -6,13 +6,13 @@ import { Link } from 'react-router-dom';
 class Promociones extends Component {
     render() {
         return (
-            <div className="promo">
+            <div className="container promo">
                 <div className="titlePromocion row">
-                    <p className="col-6">
+                    <p className="col titulo">
                         <Link to="/perfil"><i class="fas fa-times"></i></Link>
                         Promociones
                     </p>
-                    <p className="agregar col-6">Agregar promoción</p>
+                    <p className="agregar col">Agregar promoción</p>
                 </div>
                 
                 <div className="verdeS row">
@@ -23,7 +23,7 @@ class Promociones extends Component {
                 </div>
 
                 <div className="disponible ">
-                    <h5  >Promociones disponibles</h5>
+                    <h5 >Promociones disponibles</h5>
                     <p >Límite de una por pedido</p>
                 </div>
 
@@ -39,7 +39,7 @@ class Promociones extends Component {
                     <div className="promociones-space">
                         <p className="pr3">Beneficio Uber-verde</p>
                         <p className="pr1">10% de descuento en tu próxima cuenta</p>
-                        <p className="pr2">Vence diciembre 2019</p>
+                        <p className="pr2 vence">Vence diciembre 2019</p>
                     </div>  
                 </div>
                 
@@ -47,7 +47,7 @@ class Promociones extends Component {
                     <div className="promociones-space">
                         <p className="pr3">Beneficio Uber-verde</p>
                         <p className="pr1">10% de descuento en tu próxima cuenta</p>
-                        <p className="pr2">Vence diciembre 2019</p>
+                        <p className="pr2 vence">Vence diciembre 2019</p>
                     </div>   
                 </div>
             </div>

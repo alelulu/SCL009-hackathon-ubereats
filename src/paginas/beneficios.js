@@ -36,7 +36,7 @@ class Beneficios extends Component{
         {
           nombre: "Planta",
           puntos: 50,
-          descripcion: ["Por cada compra ganas un punto", "Prioridad en tus pedidos por un mes", "3 despachos gratis", "$5000 de descuento"],
+          descripcion: ["Prioridad en tus pedidos por un mes", "3 despachos gratis", "$5000 de descuento"],
           imagen: emblemaPlanta
         }
       ],

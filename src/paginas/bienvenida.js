@@ -54,16 +54,20 @@ class Bienvenida extends Component{
           </div>
         </div>
         <div className="row row-botones">
-          <Link to="/restaurantes">
-            <div className="col">
-              <button className="btnVerde">Restaurantes</button>
+          
+            <div className="col col-btn-restaurantes">
+              <Link to="/restaurantes">
+                <button className="btnVerde">Restaurantes</button>
+              </Link>
             </div>
-          </Link>
-          <Link to="/beneficios">
-            <div className="col">
-              <button className="btnVerde">Beneficios</button>
+          
+          
+            <div className="col col-btn-beneficios">
+              <Link to="/beneficios">
+                <button className="btnVerde">Beneficios</button>
+              </Link>
             </div>
-          </Link>
+          
         </div>
       </div>
     )

@@ -6,7 +6,9 @@
     height: 50px;
     padding-top: 8px;
   } */
-
+.finalizar-seccion {
+  padding-bottom: 3rem
+}
   .finalizar-seccion, .finalizar-drink, .finalizar-button, .finalizar-resta,.finalizar-num, .finalizar-suma{
     display: flex;
     flex-direction: column;

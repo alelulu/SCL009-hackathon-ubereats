@@ -29,7 +29,7 @@ class Progreso extends Component {
           </div>
         </div>
         <div className="row contenedor-cuenta-atras">
-          <div className="col">
+          <div className="col col-tiempo-titulo">
             <p>Tiempo restante:</p>
           </div>
           <div className="col col-meses">
