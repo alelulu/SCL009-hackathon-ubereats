@@ -36,7 +36,8 @@ class Restaurantes extends React.Component{
     render(){
        
         return (
-             data.Restaurante.map(element=>
+            <div className="container restaurantes">
+             {data.Restaurante.map(element =>
                 <button className="restaurant-card" key={element.id} onClick={()=>this.getKey(element.id)}>
                     
                     <div className="restaurant-img">
@@ -68,7 +69,7 @@ class Restaurantes extends React.Component{
                                 <i className="fas fa-leaf"></i>
                             </div>
                             <div className="restautant-word">
-                                <p>Restaurante sustentable</p>
+                                <p className="restaurante-sustentable">Restaurante sustentable</p>
                             </div>
                         </div>
 
@@ -77,7 +78,8 @@ class Restaurantes extends React.Component{
                     {this.state.sushi? <Redirect to='/finalizar-sushi' /> : <Redirect to='/restaurantes' />}
                     {this.state.hamburger? <Redirect to='/finalizar-hamburger' /> : <Redirect to='/restaurantes' />}       
                 </button>
-            )
+            )}
+            </div>
         )
     }
 }

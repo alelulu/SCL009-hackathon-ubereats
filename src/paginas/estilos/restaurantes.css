@@ -1,8 +1,11 @@
+.restaurantes {
+    padding-bottom: 4rem 
+}
 .restaurant-img{
     align-self: center;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .restaurant-card img{
@@ -17,16 +20,18 @@
 .fa-circle{
     font-size: 5px;
 }
-
+.restaurante-sustentable {
+    padding: 0 !important
+}
 .restaurant-card{
-    background: white;
+    background: #ffffff;
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 30px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 15px 0px rgba(0,0,0,0.75);
+    border-radius: 8px;
+    box-shadow: 1px 5px 5px 2px rgba(0, 0, 0, 0.39);
 }
 
 .restaurant-img, .restaurant-name, .restaurant-type, .restaurant-time, .restaurant-points, .restaurant-number, .restaurant-eco{
